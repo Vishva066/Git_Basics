@@ -38,6 +38,8 @@ git remote add origin url //Pass the url of the repo here
 ```bash
 git branch -m main
 
+git pull --rebase origin main
+
 git push -u origin main
 ```
 It will prompt for username and password. **In the password section pass the token which you copied**
