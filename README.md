@@ -12,6 +12,8 @@ mkdir Git_Testing
 git init
 git add .
 git status
+git config --global user.name ""//Enter your Github username here
+git config --global user.email ""//Enter your Github email ID
 git commit -m "First Commit"
 git log
 ```
